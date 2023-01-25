@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: #ffffff;
+}
+
+
+.vision {
+ font-size: 28px;
+ padding-top: 347px;
+ padding-left: 100px;
+ font-family: 'Roboto', sans-serif;
+}
+
+
+.main {
+    display: block;;
+  font-family: "Viga", sans-serif;
+ font-size: 120px;
+ width: 420px;
+ padding-left: 88px;
+ padding-top: 1px;
+
+}
+
+.description {
+    position: absolute;
+    font-size: 20px;
+    width: 615px;
+    padding-top: 65px;
+    padding-left: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    display: block;
+padding-top: 194px;
+    padding-left: 118px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}

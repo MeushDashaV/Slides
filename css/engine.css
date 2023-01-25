@@ -1,0 +1,8 @@
+.engine {
+    background: url(../img/engine.png);
+    background-size: cover;
+    background-position: 100%;
+    min-width: 1920px;
+    min-height: 1080px;
+}
+
