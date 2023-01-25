@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -10,40 +11,76 @@
   --text-color: #ffffff;
 }
 
-
-.vision {
- font-size: 28px;
- padding-top: 347px;
- padding-left: 100px;
- font-family: 'Roboto', sans-serif;
+.design {
+  background: url(../img/design.png);
+  background-size: cover;
+  background-position: 100%;
+  min-width: 1920px;
+  min-height: 1080px;
 }
 
+.vision {
+  display: block;
+  font-size: 28px;
+  padding-top: 347px;
+  padding-left: 100px;
+  font-family: "Roboto", sans-serif;
+}
 
 .main {
-    display: block;;
+  display: block;
   font-family: "Viga", sans-serif;
- font-size: 120px;
- width: 420px;
- padding-left: 88px;
- padding-top: 1px;
-
+  font-size: 120px;
+  width: 420px;
+  padding-left: 88px;
+  padding-top: 1px;
 }
 
 .description {
-    position: absolute;
-    font-size: 20px;
-    width: 615px;
-    padding-top: 65px;
-    padding-left: 100px;
-    font-family: 'Roboto', sans-serif;
+  display: block;
+  font-size: 20px;
+  width: 615px;
+  padding-top: 65px;
+  padding-left: 100px;
+  font-family: "Roboto", sans-serif;
+  font-weight: thin;
 }
 
 .nav {
-    display: block;
-padding-top: 194px;
-    padding-left: 118px;
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  padding-top: 39px;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.circle-block {
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 8px;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+
+.arrow {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 274px;
+}
+.arrow_left {
+  cursor: pointer;
+}
+
+.arrow_right {
+  justify-content: end;
+  cursor: pointer;
 }
