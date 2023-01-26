@@ -11,6 +11,10 @@
   --text-color: #ffffff;
 }
 
+.slides {
+  color: var(--text-color);
+}
+
 .design {
   background: url(../img/design.png);
   background-size: cover;
@@ -84,3 +88,4 @@
   justify-content: end;
   cursor: pointer;
 }
+
